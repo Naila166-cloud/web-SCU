@@ -1,0 +1,112 @@
+:root {
+  --primary: #0072BC;   /* Biru SCU */
+  --accent-green: #8DC63F;
+  --accent-red: #ED1C24;
+  --muted: #6b7280;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --nav-bg: #ffffff;
+  --footer-bg: #003c64;   /* biru tua biar kontras */
+  --footer-text: #d1e5f5; /* biru muda */
+}
+
+/* ----------- Navbar ----------- */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--nav-bg);
+  padding: 0.75rem 2rem;
+  border-bottom: 2px solid var(--primary);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: 80px; 
+}
+
+.navbar span {
+  font-size: 1.4rem;
+}
+
+.navbar .logo h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.nav-links a {
+  color: #0f172a;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.25s ease;
+}
+.nav-links a:hover {
+  color: var(--primary);
+}
+.navbar img {
+  height: 48px; /* ukuran logo */
+}
+/* ----------- Hero Section ----------- */
+.hero-overlay {
+  background: rgba(0, 114, 188, 0.55); /* biru SCU transparan */
+}
+
+.hero-overlay .title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.hero-overlay .subtitle {
+  color: #f1f5f9;
+  font-size: 1.2rem;
+}
+
+/* ----------- Buttons ----------- */
+.btn {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+.btn:hover {
+  background: var(--accent-green);
+  transform: translateY(-2px);
+}
+.btn:active {
+  background: var(--accent-red);
+}
+
+/* ----------- Cards (News, Services) ----------- */
+.news-card, .service-card, .contact-card {
+  background: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease;
+}
+.news-card:hover, .service-card:hover, .contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+.news-card h3, .service-card h2 {
+  color: var(--primary);
+}
+
+/* ----------- Footer ----------- */
+.footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.footer a {
+  color: var(--accent-green);
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: var(--accent-red);
+}

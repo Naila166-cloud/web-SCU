@@ -1,0 +1,94 @@
+{
+  "hash": "319fb747",
+  "configHash": "bbcc7098",
+  "lockfileHash": "1b3323d0",
+  "browserHash": "b9fec1fb",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "8c0b5a1c",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "1b948e07",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "b8833c42",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "a0bda9da",
+      "needsInterop": true
+    },
+    "@supabase/supabase-js": {
+      "src": "../../@supabase/supabase-js/dist/module/index.js",
+      "file": "@supabase_supabase-js.js",
+      "fileHash": "3097ebdf",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "081f2901",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "fd84fa54",
+      "needsInterop": false
+    },
+    "prop-types": {
+      "src": "../../prop-types/index.js",
+      "file": "prop-types.js",
+      "fileHash": "02a93bc0",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c5665a12",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "59d73943",
+      "needsInterop": false
+    },
+    "recharts": {
+      "src": "../../recharts/es6/index.js",
+      "file": "recharts.js",
+      "fileHash": "c2c4aeaa",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-EMB7CRMN": {
+      "file": "browser-EMB7CRMN.js"
+    },
+    "chunk-APVAXGYH": {
+      "file": "chunk-APVAXGYH.js"
+    },
+    "chunk-5H4R2CZR": {
+      "file": "chunk-5H4R2CZR.js"
+    },
+    "chunk-U3XDO3EQ": {
+      "file": "chunk-U3XDO3EQ.js"
+    },
+    "chunk-FDMQADGV": {
+      "file": "chunk-FDMQADGV.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}
